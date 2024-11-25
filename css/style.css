@@ -57,7 +57,7 @@ header div {
     width: 40%;
 }
 
-ul {
+.lista-header {
     display: flex;
     list-style: none;
 }
@@ -220,25 +220,75 @@ footer {
     display: flex;
     justify-content: center;
     width: 100%;
-    min-height: 400px;
     margin: 30px 0;
 
 }
 
+/* info social */
 .info-icon {
     width: 30%;
-    background-color: #f08180;
-    border: 2px dashed black ;
     margin: 5px 0 15px 0;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.lingua::after {
+    content: ' \02C5';
+    color: white;
+}
+
+.lingua {
+    display: flex;
+    align-items: center;
+    color: white;
+    max-height: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.lingua img {
+    width: 25px;
+}
+
+.loghi-app{
+    list-style: none;
+    display: flex;
+}
+
+
+.loghi-app a {
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+    
 }
 
 .info-spec {
-    background-color: #20b3aa;
     width: 10%;
-    border: 2px dashed white;
     margin: 5px 0 15px 0;
+    border-bottom: 1px solid #f6f6f6;
 }
 
+.main-title-footer {
+    font-size: 30px;
+    color: #7174c1;
+}
+
+.lista-footer {
+    list-style: none;
+    color: white;
+    font-weight: 600;
+    
+}
+
+.lista-footer li {
+    padding-top: 10px;
+}
+
+.title-list {
+    color: #6d8ece;
+}
+
+/* footer sotto */
 .bottom-footer {
     display: flex;
     justify-content: space-between;
