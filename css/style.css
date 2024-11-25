@@ -111,7 +111,7 @@ h1 {
     margin-bottom: 150px;
 }
 
-.download::before {
+.download-top::before {
     content: ' \2193';
     margin-right: 10px;
 }
@@ -126,22 +126,34 @@ h1 {
     display: flex;
     justify-content: center;
     background-color: white;
-    min-height: 400px;
 
 }
 
 .img {
     width: 40%;
-    background-color: #1e90ff;
-    border: 2px dashed black ;
-    margin: 30px 0;
+    margin: 150px 0;
 }
 
 .des {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     width: 30%;
-    background-color: #ffc0ca;
-    border: 2px dashed black ;
-    margin: 30px 0;
+    margin: 150px 0;
+    padding: 0 100px;
+    
+}
+
+.des p {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h2 {
+    font-size: 50px;
 }
 
 .second {
@@ -153,17 +165,45 @@ h1 {
 .call  {
     display: flex;
     justify-content: center;
-    min-height: 900px;
     background-color: #d3d3d3;;
 }
 
 .call-ex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 70%;
-    background-color: #218b21;
-    border: 2px dashed black ;
-    margin: 30px 0;
+    margin: 150px 0 0 0;
+    
 }
 
+.call-ex p {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.ready {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 30px;
+    padding: 40px;
+}
+
+.download-bottom::before {
+    content: ' \2193';
+    margin-right: 10px;
+    background-color: #89a1dd;
+    color: white;
+}
+
+.download-bottom {
+    background-color: #89a1dd;
+    color: white;
+    padding: 15px 30px;
+}
 
 /* sezione footer */
 
